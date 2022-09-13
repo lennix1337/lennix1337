@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @lennix1337, mostly know as Lucas.
+- 👀 I’m interested in Software Development, Cybersecurity and different languages.
+- 🌱 I’m currently learning Laravel, React and Angular.
+- 📫 How to reach me swlucas05@gmail.com
