@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://lennix1337.github.io">
-    <img src="./assets/profile-banner.svg" alt="Lucas Souza - spec, design, contracts, tests, deploy, smoke, feedback" />
+    <img src="https://raw.githubusercontent.com/lennix1337/lennix1337/ed1c3faf78ec3fd91e36bced79c4f51a2c8f3809/assets/profile-banner.svg" alt="Lucas Souza - spec, design, contracts, tests, deploy, smoke, feedback" />
   </a>
 </p>
 
