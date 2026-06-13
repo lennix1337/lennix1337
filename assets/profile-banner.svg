@@ -1,84 +1,77 @@
 <svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
-  <title id="title">Lucas Souza profile banner</title>
-  <desc id="desc">Black and electric blue systems blueprint banner for Lucas Souza showing spec, design, contracts, tests, deploy, smoke, and feedback pipeline.</desc>
+  <title id="title">Lucas Souza systems profile banner</title>
+  <desc id="desc">Dark systems banner with boot terminal, architecture graph, project portals, and blue oscilloscope signal trail.</desc>
   <defs>
     <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#02040A"/>
-      <stop offset="0.58" stop-color="#041228"/>
-      <stop offset="1" stop-color="#02040A"/>
+      <stop stop-color="#02030A"/>
+      <stop offset="0.46" stop-color="#081125"/>
+      <stop offset="1" stop-color="#02030A"/>
     </linearGradient>
-    <linearGradient id="accent" x1="154" y1="116" x2="1022" y2="286" gradientUnits="userSpaceOnUse">
+    <linearGradient id="cyan" x1="132" y1="104" x2="1104" y2="322" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#45FF9B"/>
+      <stop offset="0.42" stop-color="#00C8FF"/>
+      <stop offset="1" stop-color="#EAF8FF"/>
+    </linearGradient>
+    <linearGradient id="portal" x1="760" y1="120" x2="1100" y2="310" gradientUnits="userSpaceOnUse">
       <stop stop-color="#006DFF"/>
-      <stop offset="0.5" stop-color="#00A3FF"/>
-      <stop offset="1" stop-color="#5EC8FF"/>
+      <stop offset="1" stop-color="#45FF9B"/>
     </linearGradient>
     <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
-      <feGaussianBlur stdDeviation="9" result="blur"/>
-      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.00 0 0 0 0 0.43 0 0 0 0 1.00 0 0 0 0.38 0"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.00 0 0 0 0 0.78 0 0 0 0 1.00 0 0 0 0.45 0"/>
       <feBlend in="SourceGraphic"/>
     </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" stroke="#12385D" stroke-width="1" opacity="0.46"/>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M 48 0 L 0 0 0 48" stroke="#12385D" stroke-width="1" opacity="0.42"/>
     </pattern>
   </defs>
 
   <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="420" rx="28" fill="url(#grid)" opacity="0.5"/>
-  <path d="M70 316 C230 246 319 354 470 276 C636 190 734 237 878 161 C980 107 1077 134 1134 90" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
-  <path d="M77 342 H1123" stroke="#12385D" stroke-width="1"/>
-  <path d="M77 78 H1123" stroke="#12385D" stroke-width="1"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)" opacity="0.55"/>
+  <path d="M70 328 C178 260 244 367 344 288 C454 201 520 270 615 180 C722 79 840 168 916 110 C1012 37 1082 91 1134 58" stroke="url(#cyan)" stroke-width="2" opacity="0.68"/>
+  <path d="M70 342 H1134" stroke="#12385D" stroke-width="1"/>
+  <path d="M70 72 H1134" stroke="#12385D" stroke-width="1"/>
 
   <g filter="url(#glow)">
-    <rect x="80" y="92" width="7" height="236" rx="3.5" fill="url(#accent)"/>
+    <rect x="78" y="96" width="7" height="236" rx="3.5" fill="url(#cyan)"/>
   </g>
 
-  <text x="118" y="142" fill="#EAF8FF" font-family="Georgia, Times New Roman, serif" font-size="60" font-weight="700" letter-spacing="0">
+  <text x="118" y="134" fill="#EAF8FF" font-family="Georgia, Times New Roman, serif" font-size="58" font-weight="700">
     Lucas Souza
   </text>
-  <text x="120" y="184" fill="#8CA6C4" font-family="IBM Plex Sans, Aptos, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="500" letter-spacing="0">
+  <text x="120" y="176" fill="#BED6EE" font-family="Bahnschrift, Aptos, Segoe UI, sans-serif" font-size="22" font-weight="600">
     systems engineer · AI products · production discipline
   </text>
-  <text x="120" y="226" fill="#EAF8FF" font-family="IBM Plex Sans, Aptos, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="25" font-weight="620" letter-spacing="0">
-    Spec first. Boundaries clear. Tests real. Deploy proven.
+  <text x="120" y="220" fill="#EAF8FF" font-family="Bahnschrift, Aptos, Segoe UI, sans-serif" font-size="25" font-weight="700">
+    Boot specs. Wire contracts. Prove deploys. Open portals.
   </text>
 
-  <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="650">
-    <rect x="120" y="270" width="88" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="145" y="294" fill="#00A3FF">spec</text>
-    <path d="M216 289 H257" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M257 289 L249 283 M257 289 L249 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="266" y="270" width="96" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="289" y="294" fill="#5EC8FF">design</text>
-    <path d="M370 289 H411" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M411 289 L403 283 M411 289 L403 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="420" y="270" width="126" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="442" y="294" fill="#B9D5EF">contracts</text>
-    <path d="M554 289 H595" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M595 289 L587 283 M595 289 L587 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="604" y="270" width="88" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="626" y="294" fill="#006DFF">tests</text>
-    <path d="M700 289 H741" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M741 289 L733 283 M741 289 L733 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="750" y="270" width="96" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="773" y="294" fill="#00A3FF">deploy</text>
-    <path d="M854 289 H895" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M895 289 L887 283 M895 289 L887 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="904" y="270" width="88" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="926" y="294" fill="#5EC8FF">smoke</text>
-    <path d="M1000 289 H1041" stroke="#45617D" stroke-width="1.5"/>
-    <path d="M1041 289 L1033 283 M1041 289 L1033 295" stroke="#45617D" stroke-width="1.5"/>
-
-    <rect x="1050" y="270" width="108" height="38" rx="8" fill="#030A18" stroke="#1B68B6"/>
-    <text x="1070" y="294" fill="#B9D5EF">feedback</text>
+  <g font-family="Cascadia Code, JetBrains Mono, Consolas, monospace" font-size="14" font-weight="700">
+    <rect x="120" y="262" width="458" height="74" rx="8" fill="#030A18" stroke="#1B68B6"/>
+    <text x="144" y="288" fill="#45FF9B">$ mount /spec --strict</text>
+    <text x="144" y="313" fill="#00C8FF">$ deploy scene --smoke-check</text>
   </g>
 
-  <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#8CA6C4">
-    <text x="118" y="360">github.com/lennix1337</text>
-    <text x="826" y="360">TypeScript · C# · Gemini · Claude · Codex</text>
+  <g stroke-width="2" stroke-linecap="round" opacity="0.9">
+    <circle cx="682" cy="252" r="16" fill="#031027" stroke="#45FF9B"/>
+    <circle cx="752" cy="192" r="20" fill="#031027" stroke="#00C8FF"/>
+    <circle cx="826" cy="252" r="15" fill="#031027" stroke="#EAF8FF"/>
+    <circle cx="748" cy="310" r="13" fill="#031027" stroke="#FFC857"/>
+    <path d="M697 243 L735 205 M770 205 L812 242 M752 212 L748 297 M696 258 L735 302 M763 302 L813 260" stroke="#5EC8FF" opacity="0.58"/>
+    <text x="646" y="164" fill="#BED6EE" font-family="Cascadia Code, JetBrains Mono, Consolas, monospace" font-size="13">DentAI · UNIVALI · AI stack</text>
+  </g>
+
+  <g filter="url(#glow)">
+    <ellipse cx="984" cy="204" rx="72" ry="24" transform="rotate(-22 984 204)" stroke="url(#portal)" stroke-width="4"/>
+    <ellipse cx="1057" cy="258" rx="64" ry="22" transform="rotate(22 1057 258)" stroke="url(#portal)" stroke-width="4"/>
+  </g>
+  <g font-family="Cascadia Code, JetBrains Mono, Consolas, monospace" font-size="13" font-weight="700">
+    <text x="920" y="156" fill="#00C8FF">Genexus18MCP</text>
+    <text x="1010" y="326" fill="#45FF9B">locoChat</text>
+  </g>
+
+  <g font-family="Cascadia Code, JetBrains Mono, Consolas, monospace" font-size="13" fill="#8CA6C4">
+    <text x="118" y="366">github.com/lennix1337</text>
+    <text x="760" y="366">Three.js · TypeScript · C# · Gemini · Claude · Codex</text>
   </g>
 </svg>
