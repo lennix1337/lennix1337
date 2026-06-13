@@ -1,0 +1,84 @@
+<svg width="1200" height="420" viewBox="0 0 1200 420" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Lucas Souza profile banner</title>
+  <desc id="desc">Dark systems blueprint banner for Lucas Souza showing spec, design, contracts, tests, deploy, smoke, and feedback pipeline.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0B0B09"/>
+      <stop offset="0.58" stop-color="#12110D"/>
+      <stop offset="1" stop-color="#080806"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="154" y1="116" x2="1022" y2="286" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C79A5B"/>
+      <stop offset="0.5" stop-color="#8B9171"/>
+      <stop offset="1" stop-color="#7E8DA6"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="9" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.78 0 0 0 0 0.60 0 0 0 0 0.36 0 0 0 0.28 0"/>
+      <feBlend in="SourceGraphic"/>
+    </filter>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" stroke="#373124" stroke-width="1" opacity="0.46"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="420" rx="28" fill="url(#grid)" opacity="0.5"/>
+  <path d="M70 316 C230 246 319 354 470 276 C636 190 734 237 878 161 C980 107 1077 134 1134 90" stroke="url(#accent)" stroke-width="2" opacity="0.55"/>
+  <path d="M77 342 H1123" stroke="#373124" stroke-width="1"/>
+  <path d="M77 78 H1123" stroke="#373124" stroke-width="1"/>
+
+  <g filter="url(#glow)">
+    <rect x="80" y="92" width="7" height="236" rx="3.5" fill="url(#accent)"/>
+  </g>
+
+  <text x="118" y="142" fill="#F2EAD8" font-family="Georgia, Times New Roman, serif" font-size="60" font-weight="700" letter-spacing="0">
+    Lucas Souza
+  </text>
+  <text x="120" y="184" fill="#B9AD96" font-family="IBM Plex Sans, Aptos, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="500" letter-spacing="0">
+    systems engineer · AI products · production discipline
+  </text>
+  <text x="120" y="226" fill="#F2EAD8" font-family="IBM Plex Sans, Aptos, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif" font-size="25" font-weight="620" letter-spacing="0">
+    Spec first. Boundaries clear. Tests real. Deploy proven.
+  </text>
+
+  <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Consolas, monospace" font-size="15" font-weight="650">
+    <rect x="120" y="270" width="88" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="145" y="294" fill="#C79A5B">spec</text>
+    <path d="M216 289 H257" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M257 289 L249 283 M257 289 L249 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="266" y="270" width="96" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="289" y="294" fill="#D0B37B">design</text>
+    <path d="M370 289 H411" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M411 289 L403 283 M411 289 L403 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="420" y="270" width="126" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="442" y="294" fill="#B9AD96">contracts</text>
+    <path d="M554 289 H595" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M595 289 L587 283 M595 289 L587 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="604" y="270" width="88" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="626" y="294" fill="#7E8DA6">tests</text>
+    <path d="M700 289 H741" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M741 289 L733 283 M741 289 L733 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="750" y="270" width="96" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="773" y="294" fill="#8B9171">deploy</text>
+    <path d="M854 289 H895" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M895 289 L887 283 M895 289 L887 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="904" y="270" width="88" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="926" y="294" fill="#91A36B">smoke</text>
+    <path d="M1000 289 H1041" stroke="#786F61" stroke-width="1.5"/>
+    <path d="M1041 289 L1033 283 M1041 289 L1033 295" stroke="#786F61" stroke-width="1.5"/>
+
+    <rect x="1050" y="270" width="108" height="38" rx="8" fill="#151410" stroke="#4A3D2D"/>
+    <text x="1070" y="294" fill="#C0A16D">feedback</text>
+  </g>
+
+  <g font-family="JetBrains Mono, ui-monospace, SFMono-Regular, Consolas, monospace" font-size="13" fill="#786F61">
+    <text x="118" y="360">github.com/lennix1337</text>
+    <text x="911" y="360">TypeScript · C# · RAG · Gemini</text>
+  </g>
+</svg>
