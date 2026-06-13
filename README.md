@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Lucas Souza — spec, design, contracts, tests, deploy, smoke, feedback" />
+  <img src="./assets/profile-banner.svg" alt="Lucas Souza - spec, design, contracts, tests, deploy, smoke, feedback" />
 </p>
 
 Programming language is a means, not the work.
@@ -11,8 +11,8 @@ AI is a force multiplier, not a crutch. Code is downstream.
 
 ## Now
 
-- **DentAI** — tech lead. AI-first dental platform: RAG, Gemini, clinical assistant workflows, automation, production release flow.
-- **UNIVALI** — leading academic systems team with Next.js, TypeScript, and internal platform work.
+- **DentAI**: tech lead. AI-first dental platform: RAG, Gemini, clinical assistant workflows, automation, production release flow.
+- **UNIVALI**: leading academic systems team with Next.js, TypeScript, and internal platform work.
 
 ## Taste
 
@@ -20,12 +20,12 @@ Small interfaces. Explicit contracts. Boring deploys. Sharp feedback loops.
 
 ## Featured
 
-- **[Genexus18MCP](https://github.com/lennix1337/Genexus18MCP)** — MCP server for GeneXus 18. Brings Claude/Cursor-style workflows to GeneXus codebases. `C#`
-- **[locoChat](https://github.com/lennix1337/locoChat)** — web interface for Loco stream chat. `JavaScript`
+- **[Genexus18MCP](https://github.com/lennix1337/Genexus18MCP)**: MCP server for GeneXus 18. Brings Claude/Cursor-style workflows to GeneXus codebases. `C#`
+- **[locoChat](https://github.com/lennix1337/locoChat)**: stream-chat viewer built around a Loco endpoint gap that made public user chat mirroring possible by username. `JavaScript`
 
 ## Stack
 
-`TypeScript` `Next.js` `React` `Node.js` `C#` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Gemini` `RAG`
+`TypeScript` `Next.js` `React` `Node.js` `C#` `PostgreSQL` `Docker` `AWS` `GitHub Actions` `Gemini` `Claude` `Codex` `RAG`
 
 ## Reach me
 
