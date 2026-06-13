@@ -1,5 +1,12 @@
 <p align="center">
-  <img src="./assets/profile-banner.svg" alt="Lucas Souza - spec, design, contracts, tests, deploy, smoke, feedback" />
+  <a href="https://lennix1337.github.io">
+    <img src="./assets/profile-banner.svg" alt="Lucas Souza - spec, design, contracts, tests, deploy, smoke, feedback" />
+  </a>
+</p>
+
+<p align="center">
+  <strong><a href="https://lennix1337.github.io">Enter the 3D systems profile</a></strong><br />
+  <sub>scroll-driven Three.js version of this profile</sub>
 </p>
 
 Programming language is a means, not the work.
