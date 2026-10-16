@@ -13,14 +13,19 @@ After hours I build the tools AI agents use to read, map and change real codebas
 The language is a detail. The work is the spec, the contracts, the failure modes
 and the proof that the deploy did what it said.
 
-## Selected work
+## What I'm working on
+
+The six projects currently pinned on my profile: code intelligence, GeneXus tooling,
+persistent agent memory, account orchestration, and a voxel sandbox.
 
 | Project | What it is | Role |
 | --- | --- | --- |
 | **[ripwire](https://github.com/redhat-et/ripwire)** <br> ![stars](https://img.shields.io/github/stars/redhat-et/ripwire?style=flat-square&label=%E2%98%85&labelColor=000000&color=7b3ff2) | The ripgrep of AI context: a zero-dependency C++23 CLI and MCP server that hands coding agents a map of the repo before they read it. I wrote its [native Windows port](https://github.com/redhat-et/ripwire/pull/44): 8,900 lines across 175 files on Clang and the MSVC ABI, built end to end with AI agents. [Case study](https://lennix1337.github.io/ripwire-windows-port.html) | Windows port |
-| **[Genexus18MCP](https://github.com/lennix1337/Genexus18MCP)** <br> ![stars](https://img.shields.io/github/stars/lennix1337/Genexus18MCP?style=flat-square&label=%E2%98%85&labelColor=000000&color=7b3ff2) <br> ![npm downloads](https://img.shields.io/npm/dm/genexus-mcp?style=flat-square&label=npm&labelColor=000000&color=7b3ff2) | MCP server that lets Claude, Cursor and Codex work inside GeneXus knowledge bases. Native SDK on 16 to 18, legacy support back to 8. Installed from npm more than 36,000 times. `npx genexus-mcp@latest init` | Author |
-| **[bend2craft](https://github.com/lennix1337/bend2craft)** | A Minecraft-style voxel sandbox where Bend 2 owns the whole world: terrain, physics, villagers, crafting. The browser only draws it. | Author |
-| **[locoChat](https://github.com/lennix1337/locoChat)** | Security research on the live chat of Loco, a streaming platform. Its API took the sender's display name from the client instead of the session, so any signed-in account could post as anyone, moderators included. locoChat is the proof of concept. | Security research |
+| **[Genexus18MCP](https://github.com/lennix1337/Genexus18MCP)** <br> ![stars](https://img.shields.io/github/stars/lennix1337/Genexus18MCP?style=flat-square&label=%E2%98%85&labelColor=000000&color=7b3ff2) <br> ![npm downloads](https://img.shields.io/npm/dm/genexus-mcp?style=flat-square&label=npm&labelColor=000000&color=7b3ff2) | MCP server for working inside GeneXus knowledge bases: native SDK support for 16–18 and basic legacy compatibility back to 8. Also exploring an independent Rust engine for a bounded portable subset—not full SDK parity. `npx genexus-mcp@latest init` | Author |
+| **[pi-optchat](https://github.com/lennix1337/pi-optchat)** | My extended Pi memory fork: one endless chat per profile, supervised agents, shell controls, context budgeting, recovery journals, compactor diagnostics, and optional OptMem sync. TypeScript, running inside ordinary Pi. | Fork maintainer |
+| **[pi-multi-account](https://github.com/lennix1337/pi-multi-account)** | My Pi account-management fork: automatic failover and rotation across Anthropic, OpenAI/ChatGPT Codex, and Qwen/Alibaba, with quota-aware account selection and usage visibility. | Fork maintainer |
+| **[OptMem](https://github.com/lennix1337/OptMem)** | Permanent memory for AI agents, ported to a single Rust binary. Summary trees, search, pins, amendments, stdin notes, and fixed-width storage compatible with the original format. No Python runtime or shell shim required. | Rust port / fork maintainer |
+| **[bend2craft](https://github.com/lennix1337/bend2craft)** | A Minecraft-inspired voxel sandbox with Bend 2 world rules, a WebGL browser client, and a native CPU-rendered client. Terrain, physics, inventory and crafting share the same domain logic. | Author |
 
 ## The road so far
 
